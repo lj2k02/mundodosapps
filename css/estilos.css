@@ -9,6 +9,27 @@ body {
   background-size: auto 100vh; 
   font-family: Arial;
   height: 100vh;
+  font-size: 1em;
+}
+
+/*Resoluçao responsiva*/
+
+@media (min-width: 300px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 1em;
+  }
 }
 
 header {
@@ -58,7 +79,6 @@ a:hover {
   color: greenyellow;
   text-align: center
 }
-
 
 H1 {
   margin: 1vh; 
