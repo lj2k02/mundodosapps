@@ -9,26 +9,74 @@ body {
   background-size: auto 100vh; 
   font-family: Arial;
   height: 100vh;
-  font-size: 1em;
+  font-size: 10px;
 }
 
 /*Resoluçao responsiva*/
 
 @media (min-width: 300px) {
   body {
-    font-size: 1em;
+    font-size: 12px;
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
   body {
-    font-size: 1em;
+    font-size: 14px;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   body {
-    font-size: 1em;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 750px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1050px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2000px) {
+  body {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 2900px) {
+  body {
+    font-size: 43px;
   }
 }
 
