@@ -6,8 +6,8 @@
 
 body {
   background-image: url(../img/F0.jpg);
-  background-size: auto 100vh; 
-  font-family: Arial;
+  background-size: auto 100vh;
+  font-family: 'Bangers', cursive;
   height: 100vh;
   font-size: 10px;
 }
@@ -121,11 +121,13 @@ a:hover {
 .CA1 {
   color: yellowgreen;
   text-align: center;
+  font-family: 'Montaga', serif;
 }
 
 .CA2 {
   color: greenyellow;
-  text-align: center
+  text-align: center;
+  font-family: 'Courgette', cursive;
 }
 
 H1 {
