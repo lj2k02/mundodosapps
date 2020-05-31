@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: njnaruto;
+  src: url(../font/njnaruto-webfont.woff);
+}
+
 body {
   background-image: url(../img/F0.jpg);
   background-size: auto 100vh;
-  font-family: 'Bangers', cursive;
   height: 100vh;
   font-size: 10px;
 }
@@ -121,13 +125,18 @@ a:hover {
 .CA1 {
   color: yellowgreen;
   text-align: center;
-  font-family: 'Montaga', serif;
 }
 
 .CA2 {
   color: greenyellow;
   text-align: center;
-  font-family: 'Courgette', cursive;
+}
+
+.NU {
+  color: orange;
+  font-family: njnaruto;
+  margin-top: 20px;
+  font-size: 10vw;
 }
 
 H1 {
