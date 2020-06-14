@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-
 body {
-  background-color: teal;
+  background-color: darkblue;
   background-size: auto 100vh;
   height: 100vh;
   font-size: 10px;
@@ -105,7 +104,7 @@ header {
 
 .menu a {
   display: block;
-  padding: 10px 20px;
+  padding: 7px 12px;
 }
 
 a {
@@ -123,12 +122,16 @@ a:hover {
 .CA1 {
   color: chartreuse;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
 }
 
 .CA2 {
   color: chartreuse;
   text-align: center;
   line-height: 1.5em;
+  font-family: 'DM Mono', monospace;
+  font-weight: bold;
 }
 
 H1 {
@@ -137,15 +140,42 @@ H1 {
   padding: 0px;
 }
 
+.grid {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: space-around;
+}
+
+@media (min-width: 400px) {
+  .grid {
+  grid-template-columns: repeat(4, 100px);
+  justify-content: space-around;
+  }
+}
+
 .iapp {
-  height: 65px;
-  width: 65px;
+  height: 80px;
+  width: 80px;
 }
 
 .objt {
   color: white;
+  padding: 0.5em;
+  height: 100vh;
+}
+
+.objt figure {
+  text-align: center;
+}
+
+.objt h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 4em;
 }
 
 figcaption {
   color: whitesmoke;
+  font-size: 1.5em;
 }
