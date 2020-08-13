@@ -5,78 +5,10 @@
 }
 
 body {
-  background-color: darkblue;
+  background-color: #101D24;
   background-size: auto 100vh;
   height: 100vh;
   font-size: 10px;
-}
-
-/*Resoluçao responsiva*/
-
-@media (min-width: 300px) {
-  body {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 450px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 750px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 900px) {
-  body {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 1050px) {
-  body {
-    font-size: 22px;
-  }
-}
-
-@media (min-width: 1300px) {
-  body {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 1500px) {
-  body {
-    font-size: 27px;
-  }
-}
-
-@media (min-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 2000px) {
-  body {
-    font-size: 34px;
-  }
-}
-
-@media (min-width: 2900px) {
-  body {
-    font-size: 43px;
-  }
 }
 
 header {
@@ -87,7 +19,7 @@ header {
 }
 
 .menu {
-  background-color: mediumseagreen;
+  background-color: #222D36;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -108,7 +40,7 @@ header {
 }
 
 a {
-  color: white;
+  color: #00AF9C;
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
@@ -116,66 +48,24 @@ a {
 
 a:hover {
   text-decoration: none;
-  background: mediumseagreen;
+  background: #222D36;
 }
 
 .CA1 {
-  color: chartreuse;
+  color: #33B7F1;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
   font-size: 3em;
 }
 
 .CA2 {
-  color: chartreuse;
+  color: #33B7F1;
   text-align: center;
   line-height: 1.5em;
-  font-family: 'DM Mono', monospace;
   font-weight: bold;
 }
 
 H1 {
   margin: 1vh; 
-  border: 1px solid white;
+  border: 1px solid #83898E;
   padding: 0px;
-}
-
-.grid {
-  display: grid;
-  gap: 0.5em;
-  grid-template-columns: repeat(3, 100px);
-  justify-content: space-around;
-}
-
-@media (min-width: 400px) {
-  .grid {
-  grid-template-columns: repeat(4, 100px);
-  justify-content: space-around;
-  }
-}
-
-.iapp {
-  height: 80px;
-  width: 80px;
-}
-
-.objt {
-  color: white;
-  padding: 0.5em;
-  height: 100vh;
-}
-
-.objt figure {
-  text-align: center;
-}
-
-.objt h2 {
-  text-align: center;
-  margin-bottom: 0.5em;
-  font-size: 25px;
-}
-
-figcaption {
-  color: whitesmoke;
-  font-size: 1.5em;
 }
